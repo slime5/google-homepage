@@ -1,0 +1,27 @@
+.google-logo {
+    display: block;
+    margin: auto;
+}
+.navbar {
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    justify-items: center;
+    align-items: center;
+}
+#about {
+    color: black;
+    text-decoration-line: none;
+    grid-column: 1/2;
+}
+#about:hover {
+    text-decoration-line: underline;
+}
+#store {
+    color: black;
+    text-decoration-line: none;
+    grid-column: 2/3;
+}
+#store:hover {
+    text-decoration-line: underline;
+}
