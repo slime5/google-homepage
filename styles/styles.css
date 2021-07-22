@@ -1,6 +1,10 @@
 .google-logo {
     display: block;
     margin: auto;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 10vh;
 }
 .navbar {
     height: 100px;
@@ -24,4 +28,26 @@
 }
 #store:hover {
     text-decoration-line: underline;
+}
+.searchbar {
+    position: relative;
+    top: 15vh;
+    margin: auto;
+    height: 5vh;
+    width: 70vw;
+    border-width: 2px;
+    border-color: grey;
+    border-style: solid;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    display: grid;
+}
+.search-input {
+    border: none;
+    width: 60vw;
+    height: 4vh;
+    justify-self: center;
+    align-self: center;
 }
