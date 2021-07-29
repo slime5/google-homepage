@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    
+    
+    <title>Google Homepage Copy</title>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script><link href="./Google Homepage Copy_files/reset.css" rel="stylesheet"><link href="./Google Homepage Copy_files/styles.css" rel="stylesheet"></head>
+<body><main>
+    <header id="navbar">
+        <a id="about" href="http://127.0.0.1:5500/#">About</a>
+        <a id="store" href="http://127.0.0.1:5500/#">Store</a>
+        <a id="gmail" href="http://127.0.0.1:5500/#">Gmail</a>
+        <a id="images" href="http://127.0.0.1:5500/#">Images</a>
+        <!--need to fix movement of surroundings-->
+        <div id="apps-background">
+            <a id="apps" href="http://127.0.0.1:5500/#"><img src="./Google Homepage Copy_files/outline_apps_black_24dp.png" alt="3 by 3 grid of dots"></a>
+        </div>
+        <div id="sign-in-background">
+            <a id="sign-in" href="http://127.0.0.1:5500/#">Sign In</a>
+        </div>
+    </header>
+    <img id="google-logo" src="./Google Homepage Copy_files/googlelogo_color_272x92dp.png" alt="the Google logo">
+    <fieldset>
+        <form id="searchbar" action="http://127.0.0.1:5500/#" required="">
+            <!--need working image-->
+            <img src="http://127.0.0.1:5500/" alt="a magnifying glass">
+            <label class="searchbar" for="searchbar">
+                <input class="search-input" name="searchbar" type="text">
+            </label>
+        </form>
+    </fieldset>
+    <a id="google-search" href="http://127.0.0.1:5500/#">Google Search</a>
+    <a id="im-feeling-lucky" href="http://127.0.0.1:5500/#">I'm Feeling Lucky</a>
+    <footer id="footer">
+        <a id="carbon-neutral" href="http://127.0.0.1:5500/#"><img id="leaf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC" alt="a small leaf"> Carbon neutral since 2007</a>
+        <a id="advertising" href="http://127.0.0.1:5500/#">Advertising</a>
+        <a id="business" href="http://127.0.0.1:5500/#">Business</a>
+        <a id="how-search-works" href="http://127.0.0.1:5500/#">How Search works</a>
+        <a id="privacy" href="http://127.0.0.1:5500/#">Privacy</a>
+        <a id="terms" href="http://127.0.0.1:5500/#">Terms</a>
+        <a id="settings" href="http://127.0.0.1:5500/#">Settings</a>
+    </footer>
+</main>
+</body></html>

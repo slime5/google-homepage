@@ -129,7 +129,7 @@
     height: 2vh;
     width: 7vh;
     top: 10vh;
-    left: 15vh;
+    left: 16vh;
     justify-items: center;
     align-items: center;
     text-decoration-line: none;
@@ -208,11 +208,11 @@
     height: 7%;
     width: 7%;
 }
-@media (min-width: 375px) {
+@media (min-width: 480px) {
     #google-search {
         left: 35vw;
     }
     #footer {
-        top: 
+        top: 77.7vh;
     }
 }
